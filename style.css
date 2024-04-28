@@ -1,0 +1,300 @@
+@import url("https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Jost:wght@500;700&family=Public+Sans:wght@300;400;500&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    list-style: none;
+    font-family: "Public Sans", sans-serif;
+  }
+  /**header**/
+  header {
+    position: relative;
+    margin-top: 25px;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 0%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .top{
+    margin-left:0px;
+    padding-left:-125px;
+    align-items: center;
+    display: inline-flex;
+    cursor: pointer;
+    
+  }
+li{
+    display: inline;
+    padding: 2rem 0.5rem;
+    font-weight: 400;
+    color: hsl(233, 26%, 24%);
+    
+  }
+ul{
+    justify-content: space-between;
+}
+.logo{
+    padding-left: 125px;
+}
+.request{
+    cursor: pointer;;
+    margin-left:-290px;
+    border-radius:50px;
+    padding: 0.875rem 2.125rem;
+    background: linear-gradient(280deg, hsl(192, 70%, 51%), hsl(136, 65%, 51%));
+}
+/**body**/
+.phones{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    
+    
+}
+.bgg{
+    position: relative;
+    height: 100%;
+    width:50%;
+    min-height:51rem;
+    margin-top:0%;
+    overflow: visible;
+    z-index: 1;
+}
+  .unanimous {
+    position: absolute;
+    min-height:41rem;
+    width: 100%;
+    padding-top:20px;
+    display: flex;
+    margin-top:20px;
+    justify-content: flex-end;
+    background-position: right bottom,right bottom;
+  }
+  .unanimous {
+    min-height:70rem;
+    background-image: url("./images/bg-intro-mobile.svg");
+    background-position:right top;
+    background-size: 60% 66%;
+    background-repeat: no-repeat;
+    z-index:1;
+  }
+  .overlay-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    /* Adjust width and height to fit your needs */
+}
+  .una-text {
+    max-width: 500px;
+    width: 100%;
+    text-align: left;
+    padding: 1rem;
+    width: 100%;
+  }
+  .una-text h1 {
+    margin-top: 135px;
+    margin-left: 100px;
+    font-size: 3rem;
+    font-weight: 400;
+    color: hsl(233, 26%, 24%);
+    line-height: 1.2;
+    padding-bottom: 1.2rem;
+  }
+  .una-text p {
+    margin-left: 100px;
+    padding-bottom: 2.2rem;
+    color: hsl(233, 8%, 62%);
+    font-size: 0.9rem;
+    line-height: 1.2;
+  }
+  .request1{
+    margin-left: 100px;
+    cursor: pointer;
+    border-radius:55px;
+    padding: 0.875rem 2.125rem;
+    background: linear-gradient(280deg, hsl(192, 70%, 51%), hsl(136, 65%, 51%));
+  }
+  .root h2 {
+    font-size: 2.25rem;
+    font-weight: 400;
+    color: hsl(233, 26%, 24%);
+    margin-bottom: 1.2rem;
+    position: relative;
+    padding-left:100px;
+    padding-top:50px;
+  }
+.main{
+    padding-top:50px;
+    margin-top: 290px;
+    padding-left:100px;
+    font-weight: 100;
+    font-size: 1.5rem;
+    line-height:2.2;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 10%); 
+    background-color: hsl(0, 6%, 62%);
+    
+}
+.new{
+    padding-top:50px;
+}
+.options,.article{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding-left:50px;
+    
+}
+.main h1{
+    margin-top:100px;
+    max-width:1000px;
+    font-weight:400px;
+    line-height:2.0rem;
+}
+.main p{
+    
+    font-size: 1.0rem;
+    max-width:550px;
+    font-weight: 400;
+    color: hsl(233, 26%, 24%);
+}
+.online h3,.budget h3,.onboard h3,.openapi h3{
+    cursor: pointer;
+}
+.online h3:hover{
+    color: green;
+}
+.budget h3:hover{
+    color: green;
+}
+.onboard h3:hover{
+    color: green;
+}
+.openapi h3:hover{
+    color: green;
+}
+.online p,.budget p,.onboard p,.openapi p{
+    margin-top:0px;
+    max-width:250px;
+    color:black;
+    margin-right:50px;
+    padding-top:20px;
+}
+.image1 img{
+    width:80%;
+    height:100%;
+   
+}
+.article{
+    margin-right:100px;
+}
+.art-text p,h3{
+    max-width:250px;
+    line-height:1.5rem;
+    justify-content: center;
+    position: relative;
+    margin-top: 20px;
+}
+.art-text p{
+    font-weight: 400;
+    color: hsl(233, 26%, 24%);
+}
+.art-text h3:hover {
+    color: green; 
+    cursor: pointer; 
+  }
+/**footer**/
+.foot{
+    background-color:hsl(233, 26%, 24%);
+}
+.sociallogos{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  padding: 1rem;
+}
+.info,.secure{
+    font-size: large;
+    padding-bottom:10px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+.info a,.secure a{
+    font-weight: 400;
+    color: white;
+    padding-top: 20px;
+    font-size: large;
+}
+.fstart{
+        min-height: 190px;
+        max-width: 1150px;
+        margin: auto;
+        padding: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #fff;
+        gap: 1.2rem;
+}
+.last_section{
+    text-align: right;
+}
+.links{
+    bottom:10px;
+}
+.links {
+    text-align: left;
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+    padding-top:60px;
+  }
+.links:hover{
+        transition: all 0.4s;
+        cursor: pointer;
+        transform: scale(1.4);
+}
+.last_section p {
+    font-family: monospace;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    color: rgb(216, 210, 210);
+  }
+  .cta_btn{
+    margin-left: 100px;
+    border-radius:55px;
+    padding: 0.875rem 2.125rem;
+    background: linear-gradient(280deg, hsl(192, 70%, 51%), hsl(136, 65%, 51%));
+  }
+  .links #fb:hover img {
+    content: url("./images/green-icon-facebook.svg");
+  }
+  .links #yt:hover {
+    content: url("./images/green-icon-youtube.svg");
+  }
+  .links #tw:hover{
+    content: url("./images/green-icon-twitter.svg");
+  }
+  .links #pt:hover  {
+    content: url("./images/green-icon-pinterest.svg");
+  }
+  .links #it :hover  {
+    content: url("./images/green-icon-instagram.svg");
+  }
+  footer .white:hover {
+    visibility: hidden;
+  }
+  footer .white:hover ~ .green-icon {
+    visibility: visible;
+  }
+  .as{
+    display: flex;
+    flex-direction: column;
+    margin-bottom:50px;
+    justify-content: space-between;
+  }
