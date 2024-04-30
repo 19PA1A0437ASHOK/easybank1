@@ -414,7 +414,7 @@ ul{
   margin-left:30px;
 }
 .openapi p{
-  margin-left:30px
+  margin-left:10px
 }
 .article{
   display: flex;
@@ -436,7 +436,7 @@ ul{
   margin-left:-20px;
 }
 .art-text p{
-  margin-left:50px;
+  margin-left:30px;
 }
 
 .root h2 {
