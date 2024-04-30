@@ -525,7 +525,9 @@ z-index:2;
 background-image: url('./images/icon-close.svg');
 }
 
-
+body{
+  position: sticky;
+}
 
 
 }
