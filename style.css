@@ -361,8 +361,8 @@ ul{
   margin-left:40px;
   font-size:larger;
   margin-top:350px;
-  font-weight:900;
-  max-width:850px;
+  font-weight:600;
+  max-width:350px;
 }
 .una-text p {
   margin-left:35px;
@@ -391,7 +391,8 @@ ul{
 .main p{
   margin-top: -10px;
   font-size: 1.0rem;
-  max-width:450px;
+  margin-left: 30px;
+  max-width:350px;
   font-weight:200;
   color: hsl(233, 26%, 24%);
 }
@@ -400,21 +401,21 @@ ul{
   flex-direction: column;
 }
 .options h3{
-  margin-left:-10px;
+  margin-left:30px;
 }
 .online img{
   margin-top:-60px;
 }
 .online img,.budget img,.onboard img,.openapi img{
   margin-top: 10px;
-  margin-left:30px;
+  margin-left:60px;
 }
 .openapi h3{
   margin-left:30px;
 }
 .openapi p{
   text-align: center;
-  margin-left:-34px
+  margin-left:40px
 }
 .article{
   display: flex;
