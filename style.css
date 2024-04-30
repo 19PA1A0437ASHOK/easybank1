@@ -16,6 +16,11 @@
     flex-direction: row;
     justify-content: space-between;
   }
+
+  #toggle {
+    display: none;
+    }
+
   .top{
     margin-left:0px;
     padding-left:-125px;
@@ -24,7 +29,7 @@
     cursor: pointer;
     
   }
-li{
+  li{
     display: inline;
     padding: 2rem 0.5rem;
     font-weight: 400;
@@ -78,6 +83,7 @@ ul{
     background-size: 60% 66%;
     background-repeat: no-repeat;
     z-index:1;
+    margin-bottom: 100px;
   }
   .overlay-image {
     position: absolute;
@@ -186,9 +192,7 @@ ul{
     height:100%;
    
 }
-.article{
-    margin-right:100px;
-}
+
 .art-text p,h3{
     max-width:250px;
     line-height:1.5rem;
@@ -207,6 +211,7 @@ ul{
 /**footer**/
 .foot{
     background-color:hsl(233, 26%, 24%);
+    position: relative;
 }
 .sociallogos{
     display: flex;
@@ -222,6 +227,7 @@ ul{
     display: flex;
     flex-direction:column;
     justify-content: space-between;
+    position: relative;
 }
 .info a,.secure a{
     font-weight: 400;
@@ -246,6 +252,9 @@ ul{
 .links{
     bottom:10px;
 }
+.links ul li img {
+  width: 24px; /* Adjust image size as needed */
+}
 .links {
     text-align: left;
     display: flex;
@@ -253,15 +262,15 @@ ul{
     flex-direction: row;
     padding-top:60px;
   }
-.links:hover{
-        transition: all 0.4s;
+.links{
+        
         cursor: pointer;
-        transform: scale(1.4);
+        
 }
 .last_section p {
     font-family: monospace;
-    font-size: 1.1rem;
-    margin-top: 1rem;
+    font-size: 14px;
+    margin-top: 10px;
     cursor: pointer;
     color: rgb(216, 210, 210);
   }
@@ -273,28 +282,249 @@ ul{
   }
   .links #fb:hover img {
     content: url("./images/green-icon-facebook.svg");
+    animation: blink 2s infinite;
   }
   .links #yt:hover {
     content: url("./images/green-icon-youtube.svg");
+    animation: blink 2s infinite;
   }
   .links #tw:hover{
     content: url("./images/green-icon-twitter.svg");
+    animation: blink 2s infinite;
   }
   .links #pt:hover  {
     content: url("./images/green-icon-pinterest.svg");
+    animation: blink 2s infinite;
   }
   .links #it :hover  {
     content: url("./images/green-icon-instagram.svg");
+    animation: blink 2s infinite;
   }
-  footer .white:hover {
-    visibility: hidden;
-  }
-  footer .white:hover ~ .green-icon {
-    visibility: visible;
-  }
+  
+  
   .as{
     display: flex;
     flex-direction: column;
     margin-bottom:50px;
     justify-content: space-between;
   }
+
+/* Apply the blinking animation on hover */
+
+
+
+
+  /*  mobile version */
+  /* mobile version */
+@media screen and (max-width:600px) {
+  
+.request {
+  display:none;
+}
+
+  .logo{
+    justify-content: left;
+    padding:10px;
+    max-width:1px;
+    max-height:60px;
+    margin-left:0px;
+  }
+  .unanimous {
+    min-height:31rem;
+    max-width:1000px;
+    width:200%;
+    padding-top:10px;
+    max-height:600px;
+    margin-top:12px;
+    margin-left:-270px;
+  }
+  .bgg{
+    height: 50%;
+    width:50%;
+    min-height:12rem;
+    margin-top:0%;
+    overflow: visible;
+    z-index: 1;
+}
+.request1{
+  cursor: pointer;;
+  margin-left:50px;
+  border-radius:45px;
+  padding:20px 20px;
+  font-size:medium;
+  max-height:7px;
+  margin-top:-20px;
+  text-align: center;
+  background : linear-gradient(280deg, hsl(192, 70%, 51%), hsl(136, 65%, 51%));
+}
+.una-text h1 {
+  margin-left:40px;
+  font-size:larger;
+  margin-top:350px;
+  font-weight:900;
+  max-width:850px;
+}
+.una-text p {
+  margin-left:35px;
+  max-width:125px;
+  font-weight:100;
+  font-size:small;
+  margin-left:40px ;
+  text-align: center;
+}
+.main{
+  padding-top:2px;
+  margin-top:50px;
+  padding-left:10px;
+  font-weight: 100;
+  font-size: 1.0rem;
+  line-height:1.5rem;
+  max-width:100%;
+}
+.main h1{
+  text-align: center;
+  margin-left:-15px;
+  max-width:400px;
+  font-weight:400px;
+  line-height:2.0rem;
+}
+.main p{
+  margin-top: -10px;
+  font-size: 1.0rem;
+  max-width:450px;
+  font-weight:200;
+  color: hsl(233, 26%, 24%);
+}
+.options{
+  display: flex;
+  flex-direction: column;
+}
+.options h3{
+  margin-left:-10px;
+}
+.online img{
+  margin-top:-60px;
+}
+.online img,.budget img,.onboard img,.openapi img{
+  margin-top: 10px;
+  margin-left:30px;
+}
+.openapi h3{
+  margin-left:30px;
+}
+.openapi p{
+  text-align: center;
+  margin-left:-34px
+}
+.article{
+  display: flex;
+  flex-direction: column;
+}
+.article img{
+  margin-top:20px;
+  width:95%;
+  height:120%;
+  padding-left:-10px;
+  margin-left:-20px;
+}
+.article{
+  margin-top:-30px;
+}
+.art-text h3{
+  max-width:450px;
+  padding-left:-20px;
+  margin-left:-20px;
+}
+.art-text p{
+  margin-left:-20px;
+}
+
+.root h2 {
+  font-size: large;
+  padding-left:50px;
+  padding-top:30px;
+}
+.sociallogos{
+  display:flex;
+  flex-direction: column;
+  max-width:375px;
+  margin-left:-20px;
+}
+.links{
+  display: flex;
+  flex-direction: row;
+  margin-left:30px;
+  margin-right:0px;
+  padding-right:0px;
+  max-width:100%;
+  justify-content: space-between;
+}
+.links {
+    text-align:center;
+    padding-top:30px;
+}
+.flogo{
+  margin-left:25px;
+}
+.ask{
+  margin-top:-50px;
+  margin-left:50px;
+}
+.secure{
+  margin-top:-30px;
+}
+.last_section{
+  display: flex;
+  flex-direction: column;
+}
+.fstart{
+  display: flex;
+  flex-direction: column;
+  margin-left:-20px;
+}
+.cta_btn{
+  margin-left:20px;
+  border-radius:35px;
+}
+.menu {
+  position: absolute;
+  justify-content: center;
+  padding: 20px;
+  width: 90vw;
+  margin-left: 5vw;
+  margin-right:10vw;
+  top: 10vh;
+  display: none;
+  border-radius: 10px;
+  background-color:goldenrod;
+}
+#toggle {
+display: none;
+}
+.menu ul {
+list-style: none;
+text-align: center;
+}
+#toggle-label {
+margin-top:1.0vh;
+height: 2vh;
+width: 7vw;
+background-image: url('./images/icon-hamburger.svg');
+background-repeat: no-repeat;
+background-size: contain;
+transition: 0.3s ease;
+}
+
+#toggle:checked + .hamburg .menu {
+display:block !important; 
+flex-direction:row;
+z-index:2;
+}
+#toggle:checked + #toggle-label{
+background-image: url('./images/icon-close.svg');
+}
+
+
+
+
+}
